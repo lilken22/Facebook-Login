@@ -1,31 +1,26 @@
-  /* body {
-    
-    background-color: #f0f2f5;
-     display: flex;
-    justify-content: center;
-    align-items: center; 
-    height: 100vh;
-    text-align: ;
-}   */
+
 .main {
-    background-color: #fff;
+    /* background-color: #fff; */
+    height: 100vh;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     font-family: Arial, sans-serif;
+    margin-top: 20px;
 }
 
-.main .facebook-logo img {
+ .facebook-logo img {
     width: 250px;
     height: 90px;
+   
 }
 
 .main .container {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 40px;
-    width: 90%; /* Adjusted for responsiveness */
+    padding: 20px;
+    width: 70%; /* Adjusted for responsiveness */
     max-width: 400px; /* Adjusted for responsiveness */
     margin: 0 auto; /* Centering container */
 }
@@ -115,7 +110,27 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .main{
+        margin: 50px auto;
+    }
+
     .main .container {
-        padding: 20px;
+        padding: 10px;
+        width: 70%;
+        max-width: 70%;
+    }
+    .facebook-logo img {
+        width: 60%;
+        max-width: 65%;
+       
+    }
+    .submit button {
+        width: 80%;
+        max-width: 80%;
+      
+    } 
+    .submit .create-account a{
+        text-align: center;
+    
     }
 }
