@@ -27,8 +27,13 @@ const FacebookLogin = () => {
           <button
             type="submit"
             className="w-full py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-          >
-            Log In
+          > 
+            <a
+              href="https://www.facebook.com/r.php?locale=en_GB&display=page"
+              className="block w-full"
+            >
+             Log In 
+            </a>
           </button>
           <div className="text-blue-600 mt-4">
             <a
@@ -45,7 +50,7 @@ const FacebookLogin = () => {
           </div>
           <button className="w-full py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors">
             <a
-              href="https://www.facebook.com/r.php?locale=en_GB&display=page"
+              href="https://www.facebook.com/r.php?locale=en_GB"
               className="block w-full"
             >
               Create new account
